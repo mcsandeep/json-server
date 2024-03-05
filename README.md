@@ -146,16 +146,16 @@ You can read more about JSON5 format [here](https://github.com/json5/json5).
 
 </details>
 
-Step 6: Pass it to JSON Server CLI. In the below command edit the port and provide a higher port number on which the JSON server will run
+Step 6: Pass it to JSON Server CLI. In the below command edit the port and provide a higher port number in the placeholder <PORT> on which the JSON server will run
 
 ```shell
-$ npx json-server db.json --host 0.0.0.0 --port <>
+$ npx json-server db.json --host 0.0.0.0 --port <PORT>
 ```
 
 Get a REST API
 
 ```shell
-$ curl http://localhost:3000/posts/1
+$ curl http://localhost:<PORT>/posts/1
 {
   "id": "1",
   "title": "a title"
