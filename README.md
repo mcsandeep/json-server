@@ -18,12 +18,86 @@ Create a `db.json` or `db.json5` file
 ```json
 {
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Interest Rates",
+      "year": 2024
+    },
+    {
+      "id": "2",
+      "title": "Exchange Rates",
+      "currency": "bhat"
+    }
+  ],
+  "years": [
+    {
+      "year": 2024,
+      "title": "Interest Rates",
+      "interest_rate": 8
+    }
+  ],
+  "marketing-promos": [
+    {
+      "id": "1",
+      "title": "Nasdaq",
+      "year": 2023
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user": "sandeep",
+      "dept": "dev"
+    },
+    [
+      {
+        "id": "2",
+        "user": "solo",
+        "dept": "pet"
+      }
+    ],
+    [
+      {
+        "id": "3",
+        "user": "test",
+        "dept": "demo"
+      }
+    ],
+    [
+      {
+        "id": "4",
+        "user": "test2",
+        "dept": "demo"
+      }
+    ],
+    [
+      {
+        "id": "5",
+        "user": "test3",
+        "dept": "demo"
+      }
+    ],
+    [
+      {
+        "id": "6",
+        "user": "test4",
+        "dept": "demo"
+      }
+    ]
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
