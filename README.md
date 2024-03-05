@@ -7,6 +7,16 @@
 
 ## Install
 
+Step 1: For Ubuntu: Install npm via apt package manager by the running the following command
+
+```shell
+sudo apt update
+sudo apt install nodejs
+node -v
+```
+Step 2: Clone this repository. 
+Step 3: Enter into the reposity with 'cd' and then install the json-server using the below command
+
 ```shell
 npm install json-server
 ```
