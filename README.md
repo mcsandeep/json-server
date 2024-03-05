@@ -15,7 +15,14 @@ sudo apt install nodejs
 node -v
 ```
 Step 2: Clone this repository. 
-Step 3: Enter into the reposity with 'cd' and then install the json-server using the below command
+
+Step 3: Enter into the reposity with 'cd' and then install npm
+
+```shell
+apt install npm
+```
+
+Step 4: Now install the json-server using the below command
 
 ```shell
 npm install json-server@0.17.4
@@ -23,7 +30,7 @@ npm install json-server@0.17.4
 
 ## Usage
 
-Step 4: Create a `db.json` or `db.json5` file with the below values
+Step 5: Create a `db.json` or `db.json5` file with the below values
 
 ```json
 {
@@ -139,10 +146,10 @@ You can read more about JSON5 format [here](https://github.com/json5/json5).
 
 </details>
 
-Step 5: Pass it to JSON Server CLI
+Step 6: Pass it to JSON Server CLI. In the below command edit the port and provide a higher port number on which the JSON server will run
 
 ```shell
-$ npx json-server db.json
+$ npx json-server db.json --host 0.0.0.0 --port <>
 ```
 
 Get a REST API
