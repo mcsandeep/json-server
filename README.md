@@ -23,7 +23,7 @@ npm install json-server
 
 ## Usage
 
-Create a `db.json` or `db.json5` file
+Step 4: Create a `db.json` or `db.json5` file with the below values
 
 ```json
 {
